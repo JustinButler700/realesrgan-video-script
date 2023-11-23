@@ -1,4 +1,8 @@
-To run this script, install all the imports. then do run python3 myScript.py -i VIDEO_TITLE.mp4
+This script speeds up video upscaling for Real-ESRGAN
+First, download an portable executable for Real-ESRGAN here https://github.com/xinntao/Real-ESRGAN
+Drop this script into the same directory as the executable.
+then run it with :
+python3 myScript.py -i VIDEOT_TITLE.mp4
 
 If it doesn't work or produces python errors. Install all necessary dependencies:
 pip3 install Pillow
